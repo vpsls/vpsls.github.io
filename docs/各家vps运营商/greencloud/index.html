@@ -1,0 +1,3090 @@
+<!doctype html><html lang=en-us dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Greencloud #  GreenCloud (绿云) 是一家美国的云服务提供商，成立于2013年，相比其他云服务商，它的特点是在全球有很多数据中心，像日本、香港、新加坡等都有机房，价格也比较实惠
+本页面为GreenCloud服务器清单，会定期更新并展示最新的Greencloud服务器，并按照价格从低到高排序。您可以点击表格中的链接进入Greencloud网站查看详情。
+表格说明 #    CPU：默认使用Intel低配版cpu, 列出型号的cpu配置更佳。不同cpu型号可以网上查看cpu评分
+  内存：NVMe SSD > SSD > HDD
+  价格列表 #  Updated on 2023-05-31
+   vCPU Cores RAM Storage Bandwidth Location Price Link     1 core @ E5v4 2048MB Hard drive: 20GB SSD 2TB Kansas City MO 15.00 Annually 链接   1 core @ E5v4 2048MB Hard drive: 20GB SSD 2TB Jacksonville FL 15.">
+<meta name=theme-color content="#FFFFFF">
+<meta name=color-scheme content="light dark"><meta property="og:title" content>
+<meta property="og:description" content="Greencloud #  GreenCloud (绿云) 是一家美国的云服务提供商，成立于2013年，相比其他云服务商，它的特点是在全球有很多数据中心，像日本、香港、新加坡等都有机房，价格也比较实惠
+本页面为GreenCloud服务器清单，会定期更新并展示最新的Greencloud服务器，并按照价格从低到高排序。您可以点击表格中的链接进入Greencloud网站查看详情。
+表格说明 #    CPU：默认使用Intel低配版cpu, 列出型号的cpu配置更佳。不同cpu型号可以网上查看cpu评分
+  内存：NVMe SSD > SSD > HDD
+  价格列表 #  Updated on 2023-05-31
+   vCPU Cores RAM Storage Bandwidth Location Price Link     1 core @ E5v4 2048MB Hard drive: 20GB SSD 2TB Kansas City MO 15.00 Annually 链接   1 core @ E5v4 2048MB Hard drive: 20GB SSD 2TB Jacksonville FL 15.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://example.org/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/greencloud/"><meta property="article:section" content="docs">
+<title>Greencloud | VPS ls</title>
+<link rel=manifest href=/manifest.json>
+<link rel=icon href=/favicon.png type=image/x-icon>
+<link rel=stylesheet href=/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz+OQteg=" crossorigin=anonymous>
+<script defer src=/flexsearch.min.js></script>
+<script defer src=/en.search.min.a4d6fd7cb3851ca27b3340b94e911e755540c98634c5922fc7e9ba065c0fad91.js integrity="sha256-pNb9fLOFHKJ7M0C5TpEedVVAyYY0xZIvx+m6BlwPrZE=" crossorigin=anonymous></script>
+</head>
+<body dir=ltr>
+<input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control>
+<main class="container flex">
+<aside class=book-menu>
+<div class=book-menu-content>
+<nav>
+<h2 class=book-brand>
+<a class="flex align-center" href=/><img src=/vpslog.png alt=Logo><span>VPS ls</span>
+</a>
+</h2>
+<div class=book-search>
+<input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/>
+<div class="book-search-spinner hidden"></div>
+<ul id=book-search-results></ul>
+</div>
+<ul>
+<li class=book-section-flat>
+<a href=/docs/%E9%A6%96%E9%A1%B5/>首页</a>
+<ul>
+</ul>
+</li>
+<li class=book-section-flat>
+<span>超低价vps</span>
+<ul>
+<li>
+<a href=/docs/%E8%B6%85%E4%BD%8E%E4%BB%B7-vps/15%E7%BE%8E%E5%85%83%E4%BB%A5%E5%86%85-vps/>15美元以内 Vps</a>
+</li>
+</ul>
+</li>
+<li class=book-section-flat>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/>各家vps运营商</a>
+<ul>
+<li>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/racknerd/>Racknerd</a>
+</li>
+<li>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/greencloud/ class=active>Greencloud</a>
+</li>
+<li>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/justhost/>Justhost</a>
+</li>
+<li>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/cloudcone/>Cloudcone</a>
+</li>
+<li>
+<a href=/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/cloudserver/>Cloudserver</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+</div>
+</aside>
+<div class=book-page>
+<header class=book-header>
+<div class="flex align-center justify-between">
+<label for=menu-control>
+<img src=/svg/menu.svg class=book-icon alt=Menu>
+</label>
+<strong>Greencloud</strong>
+<label for=toc-control>
+</label>
+</div>
+<head>
+<link rel=stylesheet href=/css/my-style.css>
+</head>
+</header>
+<article class=markdown><h1 id=greencloud>
+Greencloud
+<a class=anchor href=#greencloud>#</a>
+</h1>
+<p>GreenCloud (绿云) 是一家美国的云服务提供商，成立于2013年，相比其他云服务商，它的特点是<strong>在全球有很多数据中心，像日本、香港、新加坡等都有机房</strong>，价格也比较实惠</p>
+<p>本页面为GreenCloud服务器清单，会定期更新并展示最新的Greencloud服务器，并按照价格从低到高排序。您可以点击表格中的链接进入Greencloud网站查看详情。</p>
+<h2 id=表格说明>
+表格说明
+<a class=anchor href=#%e8%a1%a8%e6%a0%bc%e8%af%b4%e6%98%8e>#</a>
+</h2>
+<ul>
+<li>
+<p>CPU：默认使用Intel低配版cpu, 列出型号的cpu配置更佳。不同cpu型号可以网上查看cpu评分</p>
+</li>
+<li>
+<p>内存：NVMe SSD > SSD > HDD</p>
+</li>
+</ul>
+<h2 id=价格列表>
+价格列表
+<a class=anchor href=#%e4%bb%b7%e6%a0%bc%e5%88%97%e8%a1%a8>#</a>
+</h2>
+<p>Updated on 2023-05-31</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>vCPU Cores</th>
+<th style=text-align:center>RAM</th>
+<th style=text-align:center>Storage</th>
+<th style=text-align:center>Bandwidth</th>
+<th style=text-align:center>Location</th>
+<th style=text-align:center>Price</th>
+<th style=text-align:center>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>1 core @ E5v4</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 20GB SSD</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>15.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8cf8a601189572fd1b1637b93269186e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ E5v4</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 20GB SSD</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>15.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0a2d3b7b2a5d8ebf2dd03e5e0992a3ce>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ E5v4</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 20GB SSD</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>15.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2bd60f8884c99bbd3074635f81131c70>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ E5v4</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 20GB SSD</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>15.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/26df60770519d03809cd9c3c038ffdfd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>1024MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>20.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ccd0c3943c407f34252e7b50a3336671>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>1024MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>20.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9f2a5fcdf50d556647804c3ae36bb63d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>1024MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>20.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bfac5165eaf67ee2de75bfb767f46234>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>1024MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>20.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/92964c97ce3baf2d2125cf9a001a37f7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>1024MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>20.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/60d2e5b9192ea9625aef09bcde31ded8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>SATA: 100GB</td>
+<td style=text-align:center>500GB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/00dc8c66426bda885ae369a05c7987c7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/df7979d7f1ac469e2fa9b1f4f47f2348>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0fcc9d47f22b9f626d79a1add609e55e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0996842cdc6a483e0f1129135763572e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>Double CPU + Bandwidth for triennial payments</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0 RAID-1</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/afb89ca079afca581b59be62a40a6046>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/30f2e6b00d35eeee37c2d3938442e865>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/823b1dd02809f7206fa24703c6e59e19>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/55b34c062ddc90def9a5ba9da79b84ad>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/77b8aa8f4b74d3631363b738f3cca52b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ EPYC Milan 7643</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/33a89969b43383860b12834f69ef5f71>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e02fe2f8eb8d04032b7a81334012cbba>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>Double CPU + Bandwidth for triennial payments</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0 RAID-1</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/00dd4ce41adb5ded7893afeb377b0e84>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 25GB NVMe 4.0</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/535408b0d9fc40d6e9a2d480adc29d2b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v3</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/54abc6194499b873dd7a5a20c6202be5>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ E5v4</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>Hard drive: 35GB SSD</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e6b6e7af6d336d1e0885a37c8c1e022c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core @ Xeon E5</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>3TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>25.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d58f987939e8c35e8590e8d60f628122>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a18537f9080decf5854230fc8f121ad1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b80905f84b255779ac73909f278edc0a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/59844ab17a9e6b7d3bca099930defba8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f8d54436cc97c0505e869448a2b72d71>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/fa4375a93f1b763c30c42a23f7451ed1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8c0039659d56b851db8b3a5054ac4595>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0f2a1d72f9743f3731f27a5b33f4f001>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 CPU</td>
+<td style=text-align:center>2048MB RAM</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>30.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0e638e38dc4b77b78f46b8d4d565b2ab>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1536MB</td>
+<td style=text-align:center>SATA: 200GB</td>
+<td style=text-align:center>1000GB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/af4cc2369d708f329963491c8c12b45c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 Ryzen @ 3.5GHz+</td>
+<td style=text-align:center>3072MB</td>
+<td style=text-align:center>Hard drive: 35GB NVMe</td>
+<td style=text-align:center>Note: Double Storage and Bandwidth for Triennial payments. No refunds/money back for this plan</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c8665b46ce1097e0dd0aa6b4ffffab22>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 35GB NVMe 4.0</td>
+<td style=text-align:center>5TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/566e2b58ff299ee41d538faaa6b52e1a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ Ryzen</td>
+<td style=text-align:center>3072MB</td>
+<td style=text-align:center>Hard drive: 35GB NVMe 4.0 RAID-1</td>
+<td style=text-align:center>Double Bandwidth for Triennial payments</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/55e27d2a04727cbdbd626f233463370b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 35GB NVMe 4.0</td>
+<td style=text-align:center>5TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5470d147774d87a408b139620cf4a5c1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 35GB NVMe 4.0</td>
+<td style=text-align:center>5TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/536991e51c4f4631ae8dbfa2129f3946>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ EPYC Milan</td>
+<td style=text-align:center>Double RAM + Bandwidth for Triennial payments</td>
+<td style=text-align:center>Hard drive: 35GB NVMe 4.0</td>
+<td style=text-align:center>5TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>35.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0622011bcf22a563a2048d1dee327e9f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e7e7c606e429401beb402cfa7cafceb5>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/492cde848f6ad2fa0396ce50483aaa29>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2f364cb85ece0e46907dc0a2a84ad3a8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/78bad9d331510bcf45b5a7f1a866c560>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>1500GB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3294017ce464a3aee093a725fcf24a0d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f9a8988e7a0645f38602cb7301e47699>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a35cb34aa2d789df54a000d16cacb591>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1f39de225ca3a1254caff9f977e14266>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ EPYC Milan 7643</td>
+<td style=text-align:center>3072MB</td>
+<td style=text-align:center>HDD: 1TB SATA</td>
+<td style=text-align:center>6TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7336612f9ca4e8d82a07b1b5d6ef8768>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b99030dc119fb457ae1ef581c419ab26>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v3</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e780dee1a145639444ee3534bcbcc7d6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b2bd92c5532ac47f507812d63170d60e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ E5v3</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard drive: 60GB SSD</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2fd9e1ff85f5259ebe660c3be1741812>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 @ Xeon E5v4</td>
+<td style=text-align:center>3072MB</td>
+<td style=text-align:center>HDD: 1TB SATA</td>
+<td style=text-align:center>6TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>45.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/608b637d5c537cee22018dc8c450e271>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/567c2504665a5fafd7c7b991ea405276>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>SATA: 200GB</td>
+<td style=text-align:center>1.5 TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e1b0953773ddeb6154465ec2172c3f63>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7c779284e963cc6dc4815014b7e788af>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1c5f7a13f581bd4e494001f26e4470ea>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0671c36d8dabbe542cf2f040a5a61a96>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2567a366c0d91e675da1c7dcb5b927f1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/69a19f42c3de7f589fa157a872a3166d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/128c2bf39c52eee5e195b579d24f82f3>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/79e387325cc2dd5c4ad9226c1cfdc7d0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>SATA: 200GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/39ed3939fb75da4725c3731cb376368d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>SATA: 200GB</td>
+<td style=text-align:center>1.5 TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/655dc3203dd843351ef84d107e610e76>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6d1dd366ff3c3ddee779b80a84eef024>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2d8ef259f76a639c82692d24d646a704>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Toronto ON (Canada)</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d3b83577c5dbb15d3d084f969eb0bf26>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/204940785467bfacdac5534a6af871d6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4a12ea76d885b025a8417953657c492e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e0250d6a64bc4c833505c2792e653a89>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f723f76669ee744f06ff439c731f4ca1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5e2fb8a2245bc87be903920934d3ee31>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/29555d0c25bf45bced7a62c9d6c68973>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>SATA: 200GB</td>
+<td style=text-align:center>1.5 TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c4bb70b7d35c0aadd82431ec2e5811e2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>750GB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/435b24454cd7dc106e199ba604830fd6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>750GB</td>
+<td style=text-align:center>Tokyo</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/50bdce0f0891e138c1dd31a8fa04f625>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/62d877d1d3e021f5a5c2bdc62e189f97>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4f3d27c238876b8fd702c13642f1d431>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB NVMe</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>48.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ca6e6e34328db0d6e00871a68fc0a140>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>25GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/660255ebd78ea0e70637c0cfd2f5d923>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>25GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4d07b998472d5a2e13006716e3a11f02>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>25GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/51c60280ade0aa5ed505166bf005bd66>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>25GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f6acc7f6b8e076b74f2896cef78e0c84>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>25GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1ceede17cb05a03a933f28622acf821b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>3072MB</td>
+<td style=text-align:center>HDD: 1TB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>50.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f9c926b50fc8d55b6c4f8d35f2774b2b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ab097bc58ba622e23e0f0aabb7c84fe4>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>500GB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/172b2b7a3a7c63f5ce2b85f511282c34>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Tokyo Japan</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e9d1318f77c9a3c27055734f1195f911>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e638f360930967e2829be05e66cbb104>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>512GB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/de5851c4650bb70f3f8c017567849ee3>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/14624c749ff6e9873a29b2494c559408>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/04401571ac8c8ee4a0cf5926c5881160>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8e3f75f87b9da5ca5bd1bec20c1fa79d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e90e96a9bc8c5c319e38e93e3b08e347>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e756aa9b14f7c42806c7c0533ebca20d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2ffda509f3c28d5ea78e64103590cf8c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b88145bb8899f04c76587265bce55f9d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 CPU</td>
+<td style=text-align:center>4096MB RAM</td>
+<td style=text-align:center>20GB NVMe</td>
+<td style=text-align:center>2TB Bandwidth on 1Gbps port</td>
+<td style=text-align:center></td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e172b342d33589c6f0eda7da9ea5d5cf>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>0.5TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3eebaed0ab55073ab20a992579396c35>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>1024MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>60.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4ad621477a5a25b098c0774dd8051910>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 EPYC Milan</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard Drive: 60GB NVMe 4.0</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>68.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/758e9705c415b0f262d2424df259c9df>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 EPYC Milan</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard Drive: 60GB NVMe 4.0</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>68.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/97376f570a1888129e8bf189f447d8d8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 EPYC Milan</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>Hard Drive: 60GB NVMe 4.0</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>68.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cc9847c7ba81441dcd9a4bbbc6158984>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>HDD: 1.5TB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Osaka JP</td>
+<td style=text-align:center>79.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/dca60093547a2ffcf5bb7ae3371b1425>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ EPYC Milan 7643</td>
+<td style=text-align:center>6144MB</td>
+<td style=text-align:center>HDD: 2TB SATA</td>
+<td style=text-align:center>10TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>80.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cd2d395b8cb12a30036e28f33c39219c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 @ Xeon E5v4</td>
+<td style=text-align:center>6144MB</td>
+<td style=text-align:center>HDD: 2TB SATA</td>
+<td style=text-align:center>10TB</td>
+<td style=text-align:center>Phoenix AZ</td>
+<td style=text-align:center>80.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bb88cb3443f6f172a52139ea528e051d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 1TB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>84.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/137517f11529e5ddf41c612d9e9e4c7c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 250GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>85.86 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3cd7d8d26956aee91192fd3c4a0f13c8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 250GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>85.86 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d72e49b5785e0474012e56ba2ee61bd2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 250GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>85.86 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f19fe0cf3eebc4a0dd531bf0ba7157e5>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 250GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>85.86 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3f7a5f7cae15f1f492c6824b3a9ee88d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>HDD: 250GB SATA</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>85.86 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/879f0c5c5ceb9d83db6cdcdc00ba5452>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>6144MB</td>
+<td style=text-align:center>HDD: 2TB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>95.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a09e4ca5b1d59fcac5d261c8db8ca3e2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/97cd4d86bcb04e0a8c8fb5357ac4856c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/eada9fd3e5b205f9b142df03ae8863ff>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4e94fec7a40fc731dc6d57978e80859c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ebcf24018e346bbc112721510b0e9c46>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d695c357d8b9b2d7bfc2baa7811e1abb>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a31aa65ee079f640c77620ddee3cd6ec>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a1383819b5fc59c77a1b4c335688f312>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>500GB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/472a782f9c8587077abab81479d548b9>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Tokyo Japan</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c52df0a064a50d45539f526c108f7a5e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ece783c788a164b0d4aca8fcc1ab0ad7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f5be79524bbbabfab792a40107154547>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b4225ebb9e312d5bfaab94fca3613412>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Toronto ON (Canada)</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a0098ff9cedefe1d2fbe6155fa458963>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d57f196d676cd78c5c03fba8fd4b931b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/436ca6f1987bb60fc08c867ba6382f70>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5391ff97320171b63136c5f8e07083a9>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7b7c092988c77de3fc8df94ce4a0573f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8c1be32b030a4974a3cb516e9b34f022>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bd72fd3a4a6e94406bb2387ee3956fce>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>500GB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/59594265ef5878fb2d1ac64f1637a349>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/42c9d6737e31c6c25d15827088668eca>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/04e951efe2954cb097d3b534e7509167>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f2f9a5080f925206bb80901b7ee390a1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>30GB NVMe</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d028b83b517c7677e6fb44fe96aa8369>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 dedicated physical EPYC Milan core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>Hard drive: 80GB NVMe 4.0</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8d7d8da567948545c264941a87243ca1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 dedicated physical EPYC Milan core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>Hard drive: 80GB NVMe 4.0</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>108.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cc0c3c7fbadca54a126329cfe8a32954>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>110.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/099950ec3fd7ac72b1b35a697e0f7067>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>110.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/20a4b57ee925f499cd7798479bf1990b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>110.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f8c79734f5524b4957c4dece3dd05834>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>110.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bf93857b3945e9fea1d0a9bcad07805c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>110.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8ea74263af25d3040369f889b9448bd2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>15GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6cdcba2b848637c1b878121924e321b8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/fcbd4c84ba05d9e200325c790bebf083>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ee6cc4c46852dc553ea5f77710ca436f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b96f1c3f336575cdd7a3c0ba7d962961>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/17e6efe38b5f42497d1fd314e090002c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3e3b88a86133dd24d4512e9c99779800>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2f3b88624d88cd10a9ee958eefd2d519>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7fe8ab74d28c2d70ba3f20041b779836>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>IL</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/98f5fd1b368e2d35ad2eba7c6de51b8a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a54e293e87ca4ec7d0a1d2451613522c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2f868b6a9afb5ceec0fc7be75088a4e4>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bfafc4c77b1feac96a4a2b57cf2c2171>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7a0121337423373d163b383455f51c04>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e3ca6dc40d473daabca3a8a3fedf5db1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/59885cea941742d49d739ca17aae2199>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f418e4cd83559d600d85dbc43aa4535a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9b99f68b8b15d396dfb1a0f8e4a3d3ca>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>NVMe: 20GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/079c4d25ac441b67e9f7bf2ad38587b0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f05b3cd75e0359d0bdb4ef1e7b53a5bd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>1 core</td>
+<td style=text-align:center>2048MB</td>
+<td style=text-align:center>20GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>129.60 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3a188c91b87d5ef555ab66f07e80b63b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4GB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>162.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bc3dcdaa1b18751e63a8c68f75adef2a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4GB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>162.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a6dd0b02d27b94a72845aa50dded15dd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4GB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>1.5TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>162.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a5eb0fc00438897819017b9e6e88f137>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4GB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>162.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/108ce7900eaf5e46685929200fac2c15>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>4GB</td>
+<td style=text-align:center>HDD: 500GB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>162.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/963f404a264da059300d27aa40df85ef>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>HDD: 2TB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>168.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2f4223741a17824b59cd2876d6a3f937>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1c00d7f9ba1c01517459713de4ef86ec>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b29f572758a2d5ec7578f02b438953c2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ba44a55c17729fff0ec19fbd47351769>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/109f3fe38d0efd5de1bb77b40ce5098f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/fc5efb94c43b584dd655a19c7984a6ad>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c97a02783941b980555f8207e93ccf0d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1ebfeca51070b6e75a692a56bc50da07>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0d06f52c5ecfa662bcf90e23c9326f3e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Tokyo Japan</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/dcd01625a3847655ab13f2d772c0bbb0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/665a731d048e410868f576194e679649>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b7427e812337c1a52f9533bcdeafff44>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/940ad735f6367668688cb3bf4541a691>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Toronto ON (Canada)</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/35dcb43062b1a5ecda42f3bcc3e39489>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/59c14b85895c574a43f6554d3b96c17f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0bd5303c2efe9dc7d123636e6d4bd2a7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7d84022b7ff5c4f74aa3f83d38da801f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e4e636feaf460ed9115ac83040ddc6d2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1a77c8a8fec9dc9f9241dacfdff5b095>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0753120d3b0be85199f93e7acdd6685a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB</td>
+<td style=text-align:center>1TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1059388ca97da0ea18252d996e64fb13>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ca22e09615cd492a26a67448e9e0debd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/13b6ff8e941f8941e9c20abfb11c39d1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/bc8644e9229fc3d1eb3f0faa8d5c9adf>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>50GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4ec2e39aae4cf8069b3457bf7325c43c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 dedicated physical EPYC Milan</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>Hard drive: 160GB NVMe 4.0</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4b21ec7cb4eb0075e62ca52debfb0fc5>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 dedicated physical EPYC Milan</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>Hard drive: 160GB NVMe 4.0</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>216.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8ea23d91fe582e0855a69b1f39eca2c9>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>30GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9be76514eea984af910e8ac42a7dd7cf>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/785ca385b0c59fbf193c909627159e27>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cfd60417bad63e6f3cbfa2c910c6d961>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0d70b9a6da6f7a68c7028451e40a94d1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9cd00ca12d4e1b88b4be4a5b6e65741d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/836377febe089a2075fc594634d441de>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d3737860bf86b953b597fdbaa727e921>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0f491a9e76492e6d068d59ac1376d978>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/39a523732e27f1ca152fd735f91998b0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f02ee80263538236a3d4e385e7d6cf26>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/34cd7391f9792cfbacf69678d7ba17a7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/718e00ec6a61552cb084f3089da07c5b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3e34de667e74c0fdafd02943aa61237a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1e074631dfee4a0d9aa2d2e12f57cde4>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/67e6f3e66f2872999f95025640c62cc6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f857d0e03bc0462b4ef2816f4b5ce32e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b6337b2bcce64c87c0e1b82cefe015e5>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/82387dd719c75ae0e3e9168353d44395>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>NVMe: 40GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/068ea97f90d9c2c4f9525b08f77bb513>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Hong Kong DC2</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/30ba120c30ba2a77c48e359140beaa47>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>4096MB</td>
+<td style=text-align:center>40GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>259.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1f57753ecb2fec878eae1239b1ce279c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>HDD: 1000GB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>324.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/69a7a0e80b854f12db54a59d73e8d1aa>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>HDD: 1000GB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>324.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/462f1d41280a36f23895c891d4817b9f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>HDD: 1000GB SATA</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>324.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4d66dce66508d53666b18544df2c4511>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>HDD: 1000GB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>324.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d7c602d385d6a5b3941aedc6b0dc3416>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2 core</td>
+<td style=text-align:center>8GB</td>
+<td style=text-align:center>HDD: 1000GB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>324.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6b807c0d043eca20d041cb1ab3a32d68>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>3 dedicated physical EPYC Milan</td>
+<td style=text-align:center>24GB</td>
+<td style=text-align:center>Hard drive: 240GB NVMe 4.0</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>334.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6fdb9a32e4bd3352ebf661e650c94159>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>3 dedicated physical EPYC Milan</td>
+<td style=text-align:center>24GB</td>
+<td style=text-align:center>Hard drive: 240GB NVMe 4.0</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>334.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a70c5177d7e15d73fec16cfa9789259c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/34988b70880925af8093401015b10b98>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/52f07da9daf6883659c9526a4c4186f6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/35827a4fc9a1bc7bd7308f758bcccf9d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cf5f692acde5a9c9d11d69c7dc8eb63f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/27511db9face735e4b72b02ec577e66e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d0f5e78b9f2aa4341bd617fe3217afea>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/613620df3d36700f63c5b51f8d70cffd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/275f44c5837d886ef2e5ebf147b72092>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Tokyo Japan</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ffc4faec70501f82bf22298508e7c951>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3f65ea89e3154a780d66d49dc01b19ca>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9d7f90d68e4539c4863291a9bcc1f80b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a26a6d710c33c233b19bba1a0230f88e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Toronto ON (Canada)</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/8e349dc03dcee625d91007dc3e86d3a4>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/73255330aab5ca50d9e29b319c39e7b0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192M</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f0b71cfa55fd4c6ddeffa65b1ffa6908>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ebe6999cf50d7a461b77587217cc93e8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/b0b12fd55ed7f77dc762317f8bd42cee>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/86247e341b9bb897a7d5965b0ff214fd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/848a27f3c1c916cdb5ee5691d17175e2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1b6c5bfc196659c93fb6897431663c5c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center>2TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2acb9744dbcec7d3f65e6c65ff9ea1c6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2d29bc69776a23b96ac7d7a3bef19fea>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e62e310eed7f1793df5d7faaac27f172>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e58f7b87394281598c156c2481105a59>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB NVMe</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cddc1a69acff77038e9f35ddfd448810>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 dedicated physical EPYC Milan</td>
+<td style=text-align:center>32GB</td>
+<td style=text-align:center>Hard drive: 320GB NVMe 4.0</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5f1b2f6e16cd5b13c9e380533a61d287>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 dedicated physical EPYC Milan</td>
+<td style=text-align:center>32GB</td>
+<td style=text-align:center>Hard drive: 320GB NVMe 4.0</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>432.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9227f69da633cb6c8e78f5d52b9c4476>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>60GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2592818ded884944c7bbe1627bf69d2b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/039e0bc6a87d7b86ffb45afbab93a47c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1c6c880897da5ae04f1ad9e4b53d6f36>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e954480f834f407b11c1877d50da1545>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/845ccc88d5fc62ee51adee4eeed43677>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7a55520f10de3cc3e45f21cb31da8ad8>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9edede1c191e361c11bbcd400579f824>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2476cf6bedc2c80fd57092ad630e50ab>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/7a15c11578201a87ee6306ddcb499188>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/791f34d40b700aaad72ee53a8584f8ac>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ab29bc7abe0a8cb1a7f0d432370f5c29>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5c6b482b73041e146baf8f0fe8634c02>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/116fdeff87de312dea8faacd1d2d170e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/008c481bc167aa598ab20e666a726ba0>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/fefddcf7eecd63a83db9389020e1ca85>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>6</td>
+<td style=text-align:center>12GB</td>
+<td style=text-align:center>100GB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>Amsterdam NL; Jacksonville FL; Chicago IL</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e97df94985c05a060297f330a8309f99>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3038d2424cb79a62864443a4afcbeb02>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5e9604c10255f2d5f8f47be231da098f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/15494c4e0a40d943bdbba55fe621c00b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>2</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>NVMe: 80GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a2d7bce895ec65080b9b206ad503205a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>8192MB</td>
+<td style=text-align:center>80GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>518.40 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3ac1914cae215277b6840d2d6fc46349>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>180GB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>Amsterdam NL; Jacksonville FL; Chicago IL</td>
+<td style=text-align:center>637.20 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c7994722015086cfc99db00d70194d5d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>HDD: 2000GB SATA</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>648.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/df176e11b535259853d57f176c3c127f>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>HDD: 2000GB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center></td>
+<td style=text-align:center>648.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d1963ed40f749512e8f5417f1a105472>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>HDD: 2000GB SATA</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>648.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cbf710c6004632a7ad1346161cd22805>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>HDD: 2000GB SATA</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>648.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1876f2571383d63228dc20a1caf1e37c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4 core</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>HDD: 2000GB SATA</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>648.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f0dea8698a44497c8fecec163b0aa0dc>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4b8896bbcd107d7182b5e992f9bdf0a9>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1723b4c342625fed98ba1535998fdcda>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1d5436613561d855c2882b6be3d2719b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9fe2ae6ba621ff77a57ee00755da5978>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/c228670252b0b256f8c4e7eacfc69606>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/2ed97cbb8b5dbd8812b53909ecd6794c>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cd7c63c064871bb24435a705990a27de>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>200GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e06a26ece43fea21c77d7cf8d5f747a3>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>200GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Tokyo Japan</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ca282aaa6ed443e096bf3e3867ecd218>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>200GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Singapore DC1</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f70a31d43490e4f6babd24624904cf53>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ee7663be0a710e3f0f6fc1d764951724>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/fdcc2667e1dcf32d2ee045b5dcae6544>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Toronto ON (Canada)</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/08f608e716e0e082ab9592b49fffd76a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/50abfa66c44a9dfc0928226b9dd38071>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/734c00966483da5e04a14ca8748e6709>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/09d68b121fddad085e0f17b53718339e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e6b12e8dcedc4cdf1f89fa63a7ac49bd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>6TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/454a74b5363c5db5d739c750e0672f22>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d5920ca8e58295dfec80d852bfd49008>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6205fff770f8f377515ad2c69fcb4305>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>6TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/3650790bac1b4ab7882f0d1053b921c7>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>200GB</td>
+<td style=text-align:center>4TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d506bd28991b9a8ec1c8c7cbf9a027a2>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>200GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/dc47ed424f8056b3c637841ef4b35634>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/992f2b5a7c6ffc96125b1e26e7fdf702>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Kansas City MO</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a550bbc1372368b31127ad86002856db>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>150GB NVMe</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/31363f4a8b4d847653ca193fcb3352dd>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8 dedicated physical EPYC Milan</td>
+<td style=text-align:center>64GB</td>
+<td style=text-align:center>Hard drive: 640GB NVMe 4.0</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>San Jose CA</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/6f18a90e8de8e25c6dd11a3f9171d78b>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8 dedicated physical EPYC Milan</td>
+<td style=text-align:center>64GB</td>
+<td style=text-align:center>Hard drive: 640GB NVMe 4.0</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Frankfurt DE</td>
+<td style=text-align:center>864.00 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/0da2a7e4dba4abbc860a4a54772111ec>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16GB</td>
+<td style=text-align:center>120GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e2c7d239f6a22c61cd9ad0756a2803a9>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>160GB</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/a3b4e60a64f47ccbe87e84620f3c3c20>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>160GB</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Amsterdam NL</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/cde18c2c5b234c702ddfc3951944b06d>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Los Angeles CA</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/81be7fa84b5d8b32442c3ebf9ad3105a>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Buffalo NY</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/5a736c978362f99de9098a6db1276b05>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Dallas TX</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/13616352b622a1ed98d6c11ce05b1876>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Atlanta GA</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1887d068a7418523325b45e9a573dbca>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/4441150dcf81a5816cebfb1de0dc21a6>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>160GB</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Chicago IL</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/ae305d6eaa64713bdfa30565bbdf8033>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Tokyo JP</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/d0a0c50c7c30a6e12111952d819419d1>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Denver CO</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9184afce401c9e31957e05675fd53a91>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>HongKong DC1</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/1c6dbf696c86b16a8b6aaeb0e8f509cb>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Bucharest RO</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/345b6ae25ce51a651304393b7b9452e3>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Manchester UK</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/911d255b44da67199d715b167a595991>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Hanoi VN</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/9ff7e4d3fb5d039488f6f09e05cb476e>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>160GB</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Jacksonville FL</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/f97bb3acf0fedbb21c53bdbc27a29185>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>12TB</td>
+<td style=text-align:center>Coventry UK</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/70d462cbe1f3ec2f5871b0a4d6128360>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>Singapore DC2</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/e75cc2c74df13f5f8e9024ad990804d3>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>4</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>NVMe: 160GB</td>
+<td style=text-align:center>8TB</td>
+<td style=text-align:center>HongKong DC2</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/16388b4fd0ad8b1f95eb177114046ebf>链接</a></td>
+</tr>
+<tr>
+<td style=text-align:center>8</td>
+<td style=text-align:center>16384MB</td>
+<td style=text-align:center>160GB</td>
+<td style=text-align:center>16TB</td>
+<td style=text-align:center>Missouri MO</td>
+<td style=text-align:center>1036.80 Annually</td>
+<td style=text-align:center><a href=https://greencloud.aigpt.shop/15435545cc2f58c643b854eb71413dc4>链接</a></td>
+</tr>
+</tbody>
+</table>
+</article>
+<footer class=book-footer>
+<div class="flex flex-wrap justify-between">
+</div>
+<script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+</footer>
+<div class=book-comments>
+</div>
+<label for=menu-control class="hidden book-menu-overlay"></label>
+</div>
+</main>
+</body>
+</html>
