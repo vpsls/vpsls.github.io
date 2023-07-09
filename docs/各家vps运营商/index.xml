@@ -4,7 +4,7 @@
 表格说明 # CPU：默认使用Intel低配版cpu；标注AMD cpu者优于普通Intel cpu。（1x AMD &amp;gt; 1x）
 硬盘：默认使用普通SSD；普通SSD 优于 HDD；NVMe SSD 优于SSD。（NVMe SSD &amp;gt; SSD &amp;gt; HDD）
 内存：DDRx 内存优于普通内存（DDRx &amp;gt; 普通）
-价格列表 # Updated on 2023-07-06
+价格列表 # Updated on 2023-07-09
 CPU Memory Storage Bandwidth IPv4 Price Location Link 1x 512 MB 10 GB PURE 1500GB 1 IPv4 10.18 Annually USA Link 1 768 MB 10 GB PURE 1000GB 1 IPv4 10.</description></item><item><title/><link>https://vpsls.com/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/greencloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vpsls.com/docs/%E5%90%84%E5%AE%B6vps%E8%BF%90%E8%90%A5%E5%95%86/greencloud/</guid><description>Greencloud # GreenCloud (绿云) 是一家美国的云服务提供商，成立于2013年，相比其他云服务商，它的特点是在全球有很多数据中心，像日本、香港、新加坡等都有机房，价格也比较实惠
 本页面为GreenCloud服务器清单，会定期更新并展示最新的Greencloud服务器，并按照价格从低到高排序。您可以点击表格中的链接进入Greencloud网站查看详情。
 表格说明 # CPU：默认使用Intel低配版cpu, 列出型号的cpu配置更佳。不同cpu型号可以网上查看cpu评分
